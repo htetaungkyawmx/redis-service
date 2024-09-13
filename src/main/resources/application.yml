@@ -1,0 +1,8 @@
+redis:
+  host: localhost
+  port: 6379
+  password: "org.cafe"
+  max-connection: 20
+  idle-connection: 5
+  connect-timeout: 6
+  read-timeout: 6
