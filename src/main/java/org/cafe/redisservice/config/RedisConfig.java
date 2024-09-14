@@ -43,6 +43,7 @@ public class RedisConfig {
     @Bean
     public JedisConnectionFactory jedisConnectionFactory() {
         System.out.println("REDIS_HOST = " + REDIS_HOST);
+        System.out.println("REDIS_PORT = " + REDIS_PORT);
         RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
         redisStandaloneConfiguration.setHostName(REDIS_HOST);
         redisStandaloneConfiguration.setPort(REDIS_PORT);

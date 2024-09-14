@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.cafe</groupId>
     <artifactId>redis-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>redis-service</name>
     <description>redis-service</description>
     <properties>
@@ -59,12 +59,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
